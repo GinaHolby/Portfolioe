@@ -3,7 +3,7 @@ import createClient from "@sanity/client";
 
 
 const client = createClient({
-  projectId: "n12skz8w",
+  projectId: "yz3kgj6k",     /* sxqtf6yn */
   dataset: "production",
   apiVersion: "2021-10-21",
   useCdn: false
@@ -12,15 +12,15 @@ const client = createClient({
 export async function load({ params }) {
 
     if ( 1 === 1) {
-      const data = await client.fetch(`*[_type == "recipie"]{
-        "coverimageUrl": coverimage.asset->url,
-        "ingredientimageUrl": ingredientImage.asset->url,
-        recipieTitle,
-        level,
-        total, 
-        active,
-        slug,
-      }`);
+      const data = await client.fetch(`
+      *[_type == "project"]{
+          projectTitle,
+          _id,
+          slug,
+          "bilde": image.asset->url,
+          gallery[]
+        }
+      `);
     
       if (data) {
         return {

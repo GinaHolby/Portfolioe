@@ -1,53 +1,134 @@
 
 
+
 <script>
 	export let data;
+
+	import '../style.css'
 
 
 	
 </script>
 
 
-    {#if data.recipies && data.recipies.length} 
+  
 
-{#each data.recipies as recipie}
+
 			
-			<a href="/recipie/{recipie.slug.current}">
+<div class="homepage">
 
-				<div class="foodCard">
-					<img class="coverimage" src="{recipie.coverimageUrl}" alt="">
-						<div class="information">
+	<section class="hero">
 
-                            <h3>hei</h3>
+		<a class="title" >
+			<h1 class="herotext">Gina Holby</h1>
+			<h3 class="subherotext">UX-designer</h3>
+		</a>
 
-						<h2>{recipie.recipieTitle}</h2>
-					<div class="icons">
-						<div class="icon levels_header">
-							<h5>Nivå</h5>
-							<div class="levels">
-								<div class="level">
-									<h5>{recipie.level}</h5>
-								</div>
-							</div>
-						</div>
-						<div class="icon">
-							<h5>Total</h5>
-							<h5>{recipie.total}</h5>
-						</div>
-						<div class="icon">
-							<h5>Aktiv</h5>
-							<h5>{recipie.active}</h5>
+		<div class="skoleoppgaver">
+			{#each data.recipies as project}
 
-						</div>
-					</div>	
+				<a class="" href="/project/{project.slug.current}">
+					<img class="{project.slug.current} circle " src="{project.bilde}" alt="">
+				</a>
 
-
-					</div>
-					
-				</div>	
-			</a>
 			{/each}
-		<!-- </ul> -->
-		{:else}
-        <p>No recipies found.</p>
-		{/if}
+		</div>
+
+	</section>
+
+
+</div>
+
+
+
+			
+	
+		
+
+
+
+<style>
+.homepage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+
+}
+
+.hero{
+    position: relative;
+}
+.herotext{
+    font-family: 'Allura', cursive;
+    font-size: 90px;
+}
+.subherotext{
+    font-family: 'Fauna One', serif;
+    position: absolute;
+    left: 56px;
+    top: 80px
+}
+
+
+
+
+.skoleoppgaver{
+    
+    width: 100px;
+    height: 250px;
+    margin: auto;
+    position: relative; 
+    top: 80px;
+}
+
+.circle{
+    
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 5px 10px 10px grey;
+}
+
+.disko{
+    position: absolute;
+    top: -35px;
+    left: -45px;
+    z-index: 4;
+    width: 220px;
+    height: 220px;
+}.nasjonalmuseet{
+    position: absolute;
+    top: 110px;
+    left: 80px;
+    z-index: 3;
+    width: 200px;
+    height: 200px;
+}.getaway{
+    position: absolute;
+    top: 70px;
+    right: 80px;
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+}.laekag{
+    position: absolute;
+    top: 20px;
+    right: 250px;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+}.nor-ways{
+    position: absolute;
+    top: 40px;
+    right: -280px;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+}
+
+
+</style>
