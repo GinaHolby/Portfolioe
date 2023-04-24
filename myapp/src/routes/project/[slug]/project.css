@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid limegreen !important;
+    outline: 0px solid limegreen !important;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -77,31 +77,33 @@
 
 
 .figma-logo{
-    width: 30px;
+    height: 40px;
     
 }
 
 .information{
     display: flex;
     flex-direction: column;
+    gap: 4rem;
     min-height: 100vh;
     padding: 8rem;
     max-width: 900px;
     margin: auto;
+    align-items: center;
 }
 
 .text{
     display: grid;
     grid-template-columns: 100px auto;
-    grid-gap: 5rem;
+    gap: 2rem;
 
-    margin: auto;
+    margin: 0 auto;
     width: 100%;
 
 }
 
 .title{
-    margin: auto;
+    margin: 0 auto;
     width: fit-content;
     
     
@@ -110,6 +112,11 @@
 
 .ikoner{
     display: flex;
+    width: 100%;
     justify-content: space-evenly;
 
+}
+
+.hide{
+    display: none;
 }

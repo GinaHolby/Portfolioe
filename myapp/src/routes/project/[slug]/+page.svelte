@@ -38,13 +38,17 @@
             {project.projectTitle}
             </h1> </div>
 
+         <h3>{project.shortProjectDescription}</h3>
+
          <div class="ikoner">
-            <a href="{project.figmalink}" target="_blank">
+            <a class="{project.figmalink}" href="{project.figmalink}" target="_blank">
                 <img class="figma-logo" src="../src/assets/icons/Figma-logo.svg" alt="">
             </a> 
-            <a href="{project.figmalink}" target="_blank">
-                <img class="figma-logo" src="../src/assets/icons/Figma-logo.svg" alt="">
+            <a class="{project.hidenettsidelink}" href="{project.nettsidelink}" target="_blank">
+                <img class="figma-logo" src="../src/assets/icons/interneticon.svg" alt="">
             </a> 
+            
+           
             
 
 
@@ -61,7 +65,7 @@
         <h2>
             Lengde:
         </h2>
-        <h3>{project.shortProjectDescription}</h3>
+        <h3>{project.length}</h3>
 
         <h2>
             Løsning:

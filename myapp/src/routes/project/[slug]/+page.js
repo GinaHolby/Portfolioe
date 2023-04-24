@@ -25,6 +25,10 @@ export async function load({ params }) {
     projectTitle,
     shortProjectDescription,
     figmalink,
+    figmalinkhide,
+    nettsidelink,
+    hidenettsidelink,
+    length,
 
     problemTitle,
     problemIntroduction,

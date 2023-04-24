@@ -107,20 +107,27 @@
     z-index: 3;
     width: 200px;
     height: 200px;
-}.getaway{
+}.grape{
     position: absolute;
     top: 70px;
     right: 80px;
     z-index: 2;
     width: 200px;
     height: 200px;
-}.laekag{
+}.getaway{
     position: absolute;
     top: 20px;
     right: 250px;
     z-index: 1;
     width: 150px;
     height: 150px;
+}.laekag{
+    position: absolute;
+    top: 100px;
+    right: 380px;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
 }.nor-ways{
     position: absolute;
     top: 40px;
