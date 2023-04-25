@@ -1,4 +1,4 @@
-<svg width="100" height="100" viewBox="0 0 171 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="50" height="50" viewBox="0 0 171 170" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M85 2.5V165.5" stroke="black" stroke-width="6"/>
     <path d="M85 3C85 3 127 40 127 84.5C127 129 85 166 85 166" stroke="black" stroke-width="6"/>
     <path d="M85 3C85 3 45.0001 39.5 45.0001 84.2445C45.0001 128 85 166 85 166" stroke="black" stroke-width="6"/>

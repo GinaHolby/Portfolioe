@@ -56,6 +56,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    background-color: rgb(253, 228, 232);
 
 
 }
@@ -68,7 +69,7 @@
     font-size: 90px;
 }
 .subherotext{
-    font-family: 'Fauna One', serif;
+   /*  font-family: 'Fauna One', serif; */
     position: absolute;
     left: 56px;
     top: 80px
@@ -138,4 +139,9 @@
 }
 
 
+
 </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@100&family=Quicksand:wght@300;700&display=swap" rel="stylesheet">
