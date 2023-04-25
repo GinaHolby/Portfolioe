@@ -2,6 +2,10 @@
   export let data;
 
   import "./project.css";
+
+  import Figma from "../../../assets/icons/Figma.svelte";
+  import Internet from "../../../assets/icons/Internet.svelte";
+
 </script>
 
 <header>
@@ -26,23 +30,15 @@
 
       <div class="ikoner">
         <a class={project.figmalink} href={project.figmalink} target="_blank">
-          <img
-            class="figma-logo"
-            src="../src/assets/icons/Figma-logo.svg"
-            alt=""
-          />
+          <div class="figma-logo"> <Figma /></div>
+            
         </a>
-        <a
-          class={project.hidenettsidelink}
-          href={project.nettsidelink}
-          target="_blank"
-        >
-          <img
-            class="figma-logo"
-            src="../src/assets/icons/interneticon.svg"
-            alt=""
-          />
+        
+        <a class={project.hidenettsidelink} href={project.nettsidelink} target="_blank">
+          <div class="figma-logo"> <Internet /></div>
         </a>
+
+        
 
         
       </div>
