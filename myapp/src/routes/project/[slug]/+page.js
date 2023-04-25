@@ -29,6 +29,8 @@ export async function load({ params }) {
     nettsidelink,
     hidenettsidelink,
     length,
+    notionlink,
+    hidenotionlink,
 
     problemTitle,
     problemIntroduction,

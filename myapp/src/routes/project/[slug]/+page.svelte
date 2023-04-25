@@ -5,7 +5,7 @@
 
   import Figma from "../../../assets/icons/Figma.svelte";
   import Internet from "../../../assets/icons/Internet.svelte";
-
+  import Notion from "../../../assets/icons/Notion.svelte";
 </script>
 
 <header>
@@ -36,6 +36,10 @@
         
         <a class={project.hidenettsidelink} href={project.nettsidelink} target="_blank">
           <div class="figma-logo"> <Internet /></div>
+        </a>
+
+        <a class={project.hidenotionlink} href={project.notionlink} target="_blank">
+          <div class="figma-logo"> <Notion /></div>
         </a>
 
         
