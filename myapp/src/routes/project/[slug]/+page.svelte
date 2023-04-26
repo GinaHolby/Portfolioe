@@ -29,7 +29,7 @@
       <h3>{project.shortProjectDescription}</h3>
 
       <div class="ikoner">
-        <a class={project.figmalink} href={project.figmalink} target="_blank">
+        <a class={project.figmalinkhide} href={project.figmalink} target="_blank">
           <div class="figma-logo"> <Figma /></div>
             
         </a>
