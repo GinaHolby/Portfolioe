@@ -101,7 +101,7 @@
     z-index: 4;
     width: 220px;
     height: 220px;
-}.nasjonalmuseet{
+}.citybike{
     position: absolute;
     top: 110px;
     left: 80px;
@@ -122,6 +122,20 @@
     z-index: 1;
     width: 150px;
     height: 150px;
+}.nasjonalmuseet{
+    position: absolute;
+    top: 40px;
+    right: -280px;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+}.nor-ways{
+    position: absolute;
+    top: 100px;
+    right: -360px;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
 }.laekag{
     position: absolute;
     top: 100px;
@@ -129,19 +143,9 @@
     z-index: 1;
     width: 100px;
     height: 100px;
-}.nor-ways{
-    position: absolute;
-    top: 40px;
-    right: -280px;
-    z-index: 1;
-    width: 150px;
-    height: 150px;
 }
 
 
 
 </style>
 
-<link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@100&family=Quicksand:wght@300;700&display=swap" rel="stylesheet">
