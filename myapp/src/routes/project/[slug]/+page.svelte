@@ -80,7 +80,7 @@
     font-size: 40px;
   }
   .subherotext {
-    font-family: "Fauna One", serif;
+    /* font-family: "Fauna One", serif; */
     position: absolute;
     left: 30px;
     top: 33px;
