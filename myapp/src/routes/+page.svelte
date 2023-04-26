@@ -125,14 +125,14 @@
 }.nasjonalmuseet{
     position: absolute;
     top: 40px;
-    right: -280px;
+    right: -287px;
     z-index: 1;
     width: 150px;
     height: 150px;
 }.nor-ways{
     position: absolute;
-    top: 100px;
-    right: -360px;
+    top: 70px;
+    right: -380px;
     z-index: 1;
     width: 100px;
     height: 100px;
